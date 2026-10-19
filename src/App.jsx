@@ -126,9 +126,11 @@ export default function App() {
           <div className="flex items-center justify-between h-20">
             {/* Brand Logo */}
             <a href="#home" className="flex items-center gap-3 group">
-              <div className="relative flex items-center justify-center w-11 h-11 rounded-2xl bg-gradient-to-tr from-indigo-600 via-blue-600 to-indigo-500 shadow-md shadow-indigo-500/25 group-hover:shadow-indigo-500/40 transition-all duration-300">
-                <Sparkles className="w-6 h-6 text-white" />
-              </div>
+              <img
+                src="/logo.png"
+                alt="CrystalInfoHub Logo"
+                className="w-16 h-16 object-contain rounded-xl shadow-xs group-hover:scale-105 transition-transform duration-300"
+              />
               <div className="flex flex-col">
                 <span className="text-2xl font-black tracking-tight text-slate-900 flex items-center">
                   Crystal<span className="bg-gradient-to-r from-indigo-600 to-blue-600 bg-clip-text text-transparent">InfoHub</span>
@@ -182,9 +184,11 @@ export default function App() {
                 onClick={() => setMobileMenuOpen(false)}
                 className="flex items-center gap-3"
               >
-                <div className="relative flex items-center justify-center w-11 h-11 rounded-2xl bg-gradient-to-tr from-indigo-600 via-blue-600 to-indigo-500 shadow-md shadow-indigo-500/25">
-                  <Sparkles className="w-6 h-6 text-white" />
-                </div>
+                <img
+                  src="/logo.png"
+                  alt="CrystalInfoHub Logo"
+                  className="w-11 h-11 object-contain rounded-xl shadow-xs"
+                />
                 <div className="flex flex-col">
                   <span className="text-2xl font-black tracking-tight text-slate-900 flex items-center">
                     Crystal<span className="bg-gradient-to-r from-indigo-600 to-blue-600 bg-clip-text text-transparent">InfoHub</span>
@@ -242,7 +246,7 @@ export default function App() {
                 </a>
 
                 <div className="text-center text-xs text-slate-400">
-                  contact@crystalinfohub.com • +91 98765 43210
+                  contact@crystalinfohub.com • +91 96016 48056
                 </div>
               </div>
             </div>
@@ -511,7 +515,7 @@ export default function App() {
                   </div>
                   <div>
                     <div className="text-xs text-slate-500 font-medium">Phone Support</div>
-                    <div className="text-slate-900 font-semibold">+91 98765 43210</div>
+                    <div className="text-slate-900 font-semibold">+91 96016 48056</div>
                   </div>
                 </div>
 
@@ -521,7 +525,7 @@ export default function App() {
                   </div>
                   <div>
                     <div className="text-xs text-slate-500 font-medium">Location</div>
-                    <div className="text-slate-900 font-semibold">Ahmedabad & Surat, Gujarat, India</div>
+                    <div className="text-slate-900 font-semibold">Surat, Gujarat, India</div>
                   </div>
                 </div>
               </div>
@@ -610,9 +614,11 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-slate-100">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-indigo-600 to-blue-600 flex items-center justify-center shadow-xs">
-                <Sparkles className="w-4 h-4 text-white" />
-              </div>
+              <img
+                src="/logo.png"
+                alt="CrystalInfoHub Logo"
+                className="w-8 h-8 object-contain rounded-lg shadow-xs"
+              />
               <span className="font-extrabold text-slate-900 text-lg">CrystalInfoHub</span>
             </div>
             <div className="flex items-center flex-wrap gap-8 text-sm">
